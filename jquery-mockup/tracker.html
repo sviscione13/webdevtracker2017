@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <title>Track A Workout</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/main.css">
+    </head>
+    <body>
+        
+        <div id="header-placeholder"></div>
+        
+        <div class="container">
+
+           <div class="jumbotron track-tron">
+                
+                <h3>Browse Our List of Workouts</h3>
+                    <p>Click on the workout to add to your completed list</p>
+           </div>
+          
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="card card1" >
+                    <div class="card-header">
+                    Select Completed Workouts
+                    </div>
+                    <ul class="list-group list-group-flush" id="workout-list">
+                          
+                    </ul>
+                </div>
+            </div>
+          </div>
+          <div class= "row">
+            <div class="col-lg-12">
+                <div class="card card2" >
+                        <div class="card-header">
+                        Your Completed Workouts
+                        </div>
+                        <ul class="list-group list-group-flush" id="your-workouts">
+                                <li class="list-group-item" id="default-message">No Workouts Currently Completed</li>
+                        </ul>
+                </div>
+            </div>       
+            
+            
+            
+        </div> 
+        </div>
+        <hr>
+        <div id="footer-placeholder"></div>
+        
+        <script>
+                var navProperties = {
+                    mainNav: "_nav.html",
+                    currentSection: "track"
+                };
+        </script> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script src="src/navigation.js"></script>
+        <script src="dist/bundle.js" ></script>
+        
+        
+
+    </body>
+</html>
