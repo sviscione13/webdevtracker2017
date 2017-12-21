@@ -1,0 +1,104 @@
+
+header {
+    height: 50px;
+    margin-bottom: 25px;
+}
+body{
+    
+    background-color: rgb(120, 122, 124);
+}
+
+
+.home-tron{
+     margin-top: 15px;
+     height: 300px;
+     width: 100%;
+     max-height: 50%;
+     max-width: 100%;
+     min-height: 20%;
+     min-width: 30%;
+     background-image: url("./hometron.jpg");
+     background-size: cover;
+     text-align: right;
+     background-color: #f7ebc8;
+     background-repeat: no-repeat;
+     
+     
+    
+     
+}
+
+.home-tron .btn-primary{
+
+     background-color: #0F0F0F
+}
+
+
+.homeP .col-lg-6{
+    text-align: center;
+    color: #F5F4F4
+}
+
+.homeP .col-lg-6 .btn-secondary{
+    background-color: #0F0F0F
+}
+
+footer{
+    color: #F5F4F4
+}
+
+.track-tron{
+    height: 300px;
+    width: 100%;
+    max-height: 50%;
+    max-width: 100%;
+    min-height: 20%;
+    min-width: 30%;
+    background-image: url("./homefit.jpg");
+    background-size: cover;
+    text-align: center;
+    background-color: #f7ebc8;
+    font-size: 1.6em;
+    color: #FAFAFA
+}
+
+
+
+
+
+h3{
+    font-size: 1.8em;
+}
+
+.nut-tron{
+    background-color: #f7ebc8;
+}
+
+
+
+
+.row .col-lg-12{
+    margin-bottom: 15px;
+}
+
+.row .col-lg-12 .card .card-header{
+    text-align: center;
+    background-color: #f7ebc8;
+}
+
+.row .card1 .list-group-item:hover{
+    background-color: #8EB7CF
+}
+.row .card2 .list-group-item{
+    text-align: center;
+    color: #0DC516
+}
+
+#default-message{
+    color: #F10C0C
+}
+
+.su-tron{
+    text-align: center;
+    background-color: #f7ebc8;
+}

@@ -1,0 +1,42 @@
+<div class="container">
+    
+               <div class="jumbotron track-tron">
+                    
+                    <h3>Enter WOrkouts</h3>
+                        <p>Type in the workout to add to your completed list</p>
+               </div>
+              
+              <div class="row">
+                <div class="col-lg-12">
+                    <div class="card card1" >
+                        <div class="card-header">
+                        Select Completed Workouts
+                        </div>
+                        <ul class="list-group list-group-flush" id="workout-list">
+                            <ul class="list-group list-group-flush" id="workouts">
+                                <input class="form-control" [(ngModel)]="userWorkout" placeholder="Type Completed Workout...">
+                                <button type="submit" class="btn btn-primary" (click)="Add(userInput)">Enter Your Workouts</button> 
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <div class= "row">
+                <div class="col-lg-12">
+                    <div class="card card2" >
+                            <div class="card-header">
+                            Your Completed Workouts
+                            </div>
+                            <ul class="list-group list-group-flush" id="your-workouts">
+                                <li *ngFor="let x of this.t.myWorkouts; index as i" class="list-group-item" (click)="remove(x)">
+                                    <span title="Click to Delete">{{x.name}}</span>
+                                   
+                                </li> 
+                            </ul>
+                    </div>
+                </div>       
+                
+                
+                
+            </div> 
+</div>
